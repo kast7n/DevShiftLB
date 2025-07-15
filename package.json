@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kast7n.github.io/devshiftlb",
+  "homepage": "https://kast7n.github.io/DevShiftLB",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
