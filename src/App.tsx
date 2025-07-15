@@ -11,7 +11,7 @@ import './App.css';
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/DevShiftLB">
       <div className="App">
         <Routes>
           <Route path="/" element={<Layout />}>
