@@ -2,6 +2,14 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Linkedin, Github, Mail, Award, BookOpen, Code } from 'lucide-react';
 import { Link } from 'react-router-dom';
+
+// Import team member images
+import DarsaImage from '../assets/Team/Darsa.jpg';
+import AwelaImage from '../assets/Team/Awela.jpg';
+import GhoulImage from '../assets/Team/Ghoul.jpg';
+import WaelImage from '../assets/Team/Wael.jpg';
+import TaherImage from '../assets/Team/Taher.jpg';
+
 import './Team.css';
 
 const Team: React.FC = () => {
@@ -36,7 +44,7 @@ const Team: React.FC = () => {
     'Agile Methodologies',
     'Task Management'
   ],
-  image: 'src/assets/Team/Darsa.jpg', // Placeholder for professional headshot
+  image: DarsaImage, // Professional headshot
   linkedin: 'https://www.linkedin.com/in/ali-rida-darsa/',
   github: 'https://github.com/kast7n',
   email: 'alialridaaldarsa@gmail.com'
@@ -57,7 +65,7 @@ const Team: React.FC = () => {
     'RESTful APIs',
     'Agile Methodologies'
   ],
-  image: 'src/assets/Team/Awela.jpg', // Placeholder for professional headshot
+  image: AwelaImage, // Professional headshot
   linkedin: 'https://www.linkedin.com/in/ali-awela/',
   github: 'https://github.com/aliawela',
   email: 'ali123awela@gmail.com'
@@ -78,7 +86,7 @@ const Team: React.FC = () => {
     'Docker',
     'Git & GitHub'
   ],
-  image: 'src/assets/Team/Ghoul.jpg', // Placeholder for professional headshot
+  image: GhoulImage, // Professional headshot
   linkedin: 'https://www.linkedin.com/in/mohammad-ghoulcs/',
   github: 'https://github.com/ghoul8182',
   email: 'mohammadghoul112@gmail.com'
@@ -99,7 +107,7 @@ const Team: React.FC = () => {
     'Git & GitHub',
     'Agile Methodologies'
   ],
-  image: 'src/assets/Team/Wael.jpg', // Placeholder for professional headshot
+  image: WaelImage, // Professional headshot
   linkedin: 'https://www.linkedin.com/in/waelibrahimcs/',
   github: 'https://github.com/Wael-Ib',
   email: 'ibrahim.wael.lb@gmail.com'
@@ -120,7 +128,7 @@ const Team: React.FC = () => {
     'Agile Methodologies',
     'API Testing (Postman, Swagger)'
   ],
-  image: 'src/assets/Team/Taher.jpg', // Placeholder for professional headshot
+  image: TaherImage, // Professional headshot
   linkedin: 'https://www.linkedin.com/in/ahmad-taher-748662297/',
   github: 'https://github.com/AhmadKamelTaher',
   email: 'ahmadtaher03112003@gmail.com'
